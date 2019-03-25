@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" content=" initial-scale=1, maximum-scale=1" name="viewport">
+    <title>My To Do</title>
+    <link href="MyToDo.css" rel="stylesheet" type="text/css">
+    <script src="model.js" rel="script" type="text/javascript"></script>
+    <script src="provider-websql.js" rel="script" type="text/javascript"></script>
+    <script src="MyToDo.js" rel="script" type="text/javascript"></script>
+</head>
+<body>
+<header>
+    <h1>ToDo</h1>
+    <p id="item-left">0 item left</p>
+    <input id="add-item" placeholder=" What needs to be done?">
+</header>
+
+<div id="item-list"></div>
+
+<footer>
+    <button id="clear-completed">Clear Completed</button>
+    <ul id="filters">
+        <li><a class="selected">All</a></li>
+        <li><a class="">Active</a></li>
+        <li><a class="">Completed</a></li>
+    </ul>
+</footer>
+
+</body>
+</html>
